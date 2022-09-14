@@ -25,5 +25,8 @@ public class chalengeNotas {
 			notaTotal += nota;
 		}
 		System.out.printf("\nA media das notas é de %f",  notaTotal/notas.length);
+		
+		//devemos sempre fechar item sem mais utilidade
+		keyboard.close();
 	}
 }
