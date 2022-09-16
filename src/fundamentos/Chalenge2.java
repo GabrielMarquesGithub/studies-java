@@ -15,6 +15,8 @@ public class Chalenge2 {
 		System.out.print("Operação: ");
 		String ope = keyboard.next();
 
+		keyboard.close();
+
 		double response = 0;
 		response = ope.equals("+") ? num1 + num2 : response;
 		response = ope.equals("-") ? num1 - num2 : response;
